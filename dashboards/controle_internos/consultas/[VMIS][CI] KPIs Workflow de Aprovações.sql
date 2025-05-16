@@ -1,0 +1,214 @@
+/***** KPI: Tempo médio de aprovação por Nível de Aprovação ****/
+
+/* Lista de tabelas consumidas nesta consulta: */
+	-- PROTHEUS12.dbo.SCR010 - Informações do Fluxo de Aprovação
+	-- PROTHEUS12.dbo.SYS_USR - Informações dos Usuários do Sistema Protheus
+	-- PROTHEUS12.dbo.SAK010 - Informações dos Usuários Aprovadores vinculados aos usuários do sistema Protheus
+	-- PROTHEUS12.dbo.SAL010 - Informações Informações dos Grupos de Aprovação
+	-- PROTHEUS12.dbo.SYS_COMPANY - Informações báiscas das empresas no Protheus
+
+/* Lista de pendências identificadas e dificuldades encontradas: */
+	-- 1) Ainda não é possível identificar quem foi o criador da medição;
+
+/* KPI's atendidos por esta consulta: */
+	-- 1) Quantidade de medições que entraram no fluxo de aprovação  que entraram no fluxo de aprovação por período;
+	-- 2) Quantidade de medições que entraram no fluxo de aprovação  por status;
+	-- 3) Quantidade de medições que entraram no fluxo de aprovação  por grupo;
+	-- 4) Quantidade de medições que entraram no fluxo de aprovação  por usuario;
+	-- 5) Quantidade de medições que entraram no fluxo de aprovação  por aprovador;
+	-- 6) Tempo médio de aprovação por Nível de Aprovação;
+	-- 7) Tempo médio de aprovação total das medições;
+	-- 8) Tempo médio de prazo dado para aprovação das medições;
+
+/***** VMI SISTEMAS SEGURANCA *****/
+SELECT 
+	SCR.CR_FILIAL,
+	FILIAS_PROTHEUS.M0_NOME AS NOME_FILIAL,
+	SCR.CR_NUM,
+	SCR.CR_TIPO,
+	SCR.CR_APROV AS APROVADOR_ID,
+	USER_PROTHEUS.USR_NOME AS APROVADOR_NOME,
+	USER_PROTHEUS.USR_EMAIL AS APROVADOR_EMAIL,
+	USER_PROTHEUS.USR_DEPTO AS APROVADOR_DEPTO,
+	USER_PROTHEUS.USR_CARGO AS APROVADOR_CARGO,
+	SCR.CR_NIVEL,
+	CASE SCR.CR_NIVEL
+		WHEN '01' THEN 'Responsável Área'
+		WHEN '02' THEN 'Controladoria'
+		WHEN '03' THEN 'Diretor Área'
+		WHEN '04' THEN 'Diretor Compras'
+		ELSE 'Desconhecido'
+	END AS CR_NIVEL_DESC,
+	SCR.CR_STATUS,
+	CASE SCR.CR_STATUS
+		WHEN '01' THEN 'Aguardando nível anterior'
+		WHEN '02' THEN 'Pendente'
+		WHEN '03' THEN 'Liberado'
+		WHEN '04' THEN 'Bloqueado'
+		WHEN '05' THEN 'Liberado outro aprov.'
+		WHEN '06' THEN 'Rejeitado'
+		WHEN '07' THEN 'Rej/Bloq outro aprov.'
+		ELSE 'Desconhecido'
+	END AS CR_STATUS_DESC,
+	SCR.CR_MOEDA,
+	CASE SCR.CR_MOEDA
+		WHEN '1' THEN 'Real'
+		WHEN '2' THEN 'Dolar'
+		WHEN '4' THEN 'Euro'
+		WHEN '6' THEN 'Peso Mexicano'
+		WHEN '7' THEN 'Peso Argentino'
+		ELSE 'Desconhecido'
+	END AS CR_MOEDA_DESC,
+	SCR.CR_GRUPO,
+	SCR.CR_ITGRP,
+	GRUPOS_APROVACAO.AL_DESC AS DESCRICAO_GRUPO,
+	SCR.CR_EMISSAO, 
+	SCR.CR_AVISO, 
+	SCR.CR_PRAZO, 
+	SCR.CR_DATALIB,
+	SCR.CR_OBS,
+	DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_PRAZO, 112)) AS TEMPO_PRAZO, -- Prazo em dias dado na emissão da medição
+		CASE 
+	WHEN SCR.CR_DATALIB = '' THEN NULL
+	WHEN SCR.CR_EMISSAO = '' THEN NULL
+	ELSE DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_DATALIB, 112)) 
+	END AS TEMPO_APROVACAO, -- Tempo despendido pelo usuário para realizar a aprovação da medição
+	SCR.CR_TOTAL, 
+	SCR.CR_VALLIB,
+	(CAST(SCR.CR_TOTAL AS DECIMAL(18,2)) - CAST(SCR.CR_VALLIB AS DECIMAL(18,2))) AS DIFERENCA_VALOR -- Diferença de valores entre o valor da medição e o valor aprovado
+	FROM SCR010 SCR
+	LEFT JOIN SYS_USR USER_PROTHEUS ON USER_PROTHEUS.USR_ID = SCR.CR_USER AND USER_PROTHEUS.D_E_L_E_T_ = ''
+	LEFT JOIN SAK010 USER_APROVADOR ON USER_APROVADOR.AK_COD = SCR.CR_APROV AND USER_APROVADOR.AK_USER = SCR.CR_USER AND USER_APROVADOR.D_E_L_E_T_ = ''
+	LEFT JOIN SAL010 GRUPOS_APROVACAO ON GRUPOS_APROVACAO.AL_COD = SCR.CR_GRUPO AND GRUPOS_APROVACAO.AL_ITEM = SCR.CR_ITGRP AND GRUPOS_APROVACAO.D_E_L_E_T_ = ''
+	LEFT JOIN SYS_COMPANY FILIAS_PROTHEUS ON FILIAS_PROTHEUS.M0_CODIGO = '01' AND FILIAS_PROTHEUS.M0_CODFIL = SCR.CR_FILIAL AND FILIAS_PROTHEUS.D_E_L_E_T_ = ''
+	WHERE SCR.D_E_L_E_T_ = '' AND SCR.CR_TIPO IN ('IM','SC','IP')
+
+UNION
+
+/***** VMI SERVICE *****/
+SELECT 
+	SCR.CR_FILIAL,
+	FILIAS_PROTHEUS.M0_NOME AS NOME_FILIAL,
+	SCR.CR_NUM,
+	SCR.CR_TIPO,
+	SCR.CR_APROV AS APROVADOR_ID,
+	USER_PROTHEUS.USR_NOME AS APROVADOR_NOME,
+	USER_PROTHEUS.USR_EMAIL AS APROVADOR_EMAIL,
+	USER_PROTHEUS.USR_DEPTO AS APROVADOR_DEPTO,
+	USER_PROTHEUS.USR_CARGO AS APROVADOR_CARGO,
+	SCR.CR_NIVEL,
+	CASE SCR.CR_NIVEL
+		WHEN '01' THEN 'Responsável Área'
+		WHEN '02' THEN 'Controladoria'
+		WHEN '03' THEN 'Diretor Área'
+		WHEN '04' THEN 'Diretor Financeiro'
+		ELSE 'Desconhecido'
+	END AS CR_NIVEL_DESC,
+	SCR.CR_STATUS,
+	CASE SCR.CR_STATUS
+		WHEN '01' THEN 'Aguardando nível anterior'
+		WHEN '02' THEN 'Pendente'
+		WHEN '03' THEN 'Liberado'
+		WHEN '04' THEN 'Bloqueado'
+		WHEN '05' THEN 'Liberado outro aprov.'
+		WHEN '06' THEN 'Rejeitado'
+		WHEN '07' THEN 'Rej/Bloq outro aprov.'
+		ELSE 'Desconhecido'
+	END AS CR_STATUS_DESC,
+	SCR.CR_MOEDA,
+	CASE SCR.CR_MOEDA
+		WHEN '1' THEN 'Real'
+		WHEN '2' THEN 'Dolar'
+		WHEN '4' THEN 'Euro'
+		WHEN '6' THEN 'Peso Mexicano'
+		WHEN '7' THEN 'Peso Argentino'
+		ELSE 'Desconhecido'
+	END AS CR_MOEDA_DESC,
+	SCR.CR_GRUPO,
+	SCR.CR_ITGRP,
+	GRUPOS_APROVACAO.AL_DESC AS DESCRICAO_GRUPO,
+	SCR.CR_EMISSAO, 
+	SCR.CR_AVISO, 
+	SCR.CR_PRAZO, 
+	SCR.CR_DATALIB,
+	SCR.CR_OBS,
+	DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_PRAZO, 112)) AS TEMPO_PRAZO, -- Prazo em dias dado na emissão da medição
+		CASE 
+	WHEN SCR.CR_DATALIB = '' THEN NULL
+	WHEN SCR.CR_EMISSAO = '' THEN NULL
+	ELSE DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_DATALIB, 112)) 
+	END AS TEMPO_APROVACAO, -- Tempo despendido pelo usuário para realizar a aprovação da medição
+	SCR.CR_TOTAL, 
+	SCR.CR_VALLIB,
+	(CAST(SCR.CR_TOTAL AS DECIMAL(18,2)) - CAST(SCR.CR_VALLIB AS DECIMAL(18,2))) AS DIFERENCA_VALOR -- Diferença de valores entre o valor da medição e o valor aprovado
+	FROM SCR020 SCR
+	LEFT JOIN SYS_USR USER_PROTHEUS ON USER_PROTHEUS.USR_ID = SCR.CR_USER AND USER_PROTHEUS.D_E_L_E_T_ = ''
+	LEFT JOIN SAK010 USER_APROVADOR ON USER_APROVADOR.AK_COD = SCR.CR_APROV AND USER_APROVADOR.AK_USER = SCR.CR_USER AND USER_APROVADOR.D_E_L_E_T_ = ''
+	LEFT JOIN SAL010 GRUPOS_APROVACAO ON GRUPOS_APROVACAO.AL_COD = SCR.CR_GRUPO AND GRUPOS_APROVACAO.AL_ITEM = SCR.CR_ITGRP AND GRUPOS_APROVACAO.D_E_L_E_T_ = ''
+	LEFT JOIN SYS_COMPANY FILIAS_PROTHEUS ON FILIAS_PROTHEUS.M0_CODIGO = '02' AND FILIAS_PROTHEUS.M0_CODFIL = SCR.CR_FILIAL AND FILIAS_PROTHEUS.D_E_L_E_T_ = ''
+	WHERE SCR.D_E_L_E_T_ = '' AND SCR.CR_TIPO IN ('IM','SC','IP')
+
+UNION 
+
+/***** VMI SISTEMAS SEGURANCA *****/
+SELECT 
+	SCR.CR_FILIAL,
+	FILIAS_PROTHEUS.M0_NOME AS NOME_FILIAL,
+	SCR.CR_NUM,
+	SCR.CR_TIPO,
+	SCR.CR_APROV AS APROVADOR_ID,
+	USER_PROTHEUS.USR_NOME AS APROVADOR_NOME,
+	USER_PROTHEUS.USR_EMAIL AS APROVADOR_EMAIL,
+	USER_PROTHEUS.USR_DEPTO AS APROVADOR_DEPTO,
+	USER_PROTHEUS.USR_CARGO AS APROVADOR_CARGO,
+	SCR.CR_NIVEL,
+	CASE SCR.CR_NIVEL
+		WHEN '01' THEN 'Responsável Área'
+		WHEN '02' THEN 'Controladoria'
+		WHEN '03' THEN 'Diretor Área'
+		WHEN '04' THEN 'Diretor Financeiro'
+		ELSE 'Desconhecido'
+	END AS CR_NIVEL_DESC,
+	SCR.CR_STATUS,
+	CASE SCR.CR_STATUS
+		WHEN '01' THEN 'Aguardando nível anterior'
+		WHEN '02' THEN 'Pendente'
+		WHEN '03' THEN 'Liberado'
+		WHEN '04' THEN 'Bloqueado'
+		WHEN '05' THEN 'Liberado outro aprov.'
+		WHEN '06' THEN 'Rejeitado'
+		WHEN '07' THEN 'Rej/Bloq outro aprov.'
+		ELSE 'Desconhecido'
+	END AS CR_STATUS_DESC,
+	SCR.CR_MOEDA,
+	CASE SCR.CR_MOEDA
+		WHEN '1' THEN 'Real'
+		WHEN '2' THEN 'Dolar'
+		WHEN '4' THEN 'Euro'
+		WHEN '6' THEN 'Peso Mexicano'
+		WHEN '7' THEN 'Peso Argentino'
+		ELSE 'Desconhecido'
+	END AS CR_MOEDA_DESC,
+	SCR.CR_GRUPO,
+	SCR.CR_ITGRP,
+	GRUPOS_APROVACAO.AL_DESC AS DESCRICAO_GRUPO,
+	SCR.CR_EMISSAO, 
+	SCR.CR_AVISO, 
+	SCR.CR_PRAZO, 
+	SCR.CR_DATALIB,
+	SCR.CR_OBS,
+	DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_PRAZO, 112)) AS TEMPO_PRAZO, -- Prazo em dias dado na emissão da medição
+		CASE 
+	WHEN SCR.CR_DATALIB = '' THEN NULL
+	WHEN SCR.CR_EMISSAO = '' THEN NULL
+	ELSE DATEDIFF(DAY, CONVERT(DATE, SCR.CR_EMISSAO, 112), CONVERT(DATE, SCR.CR_DATALIB, 112)) 
+	END AS TEMPO_APROVACAO, -- Tempo despendido pelo usuário para realizar a aprovação da medição
+	SCR.CR_TOTAL, 
+	SCR.CR_VALLIB,
+	(CAST(SCR.CR_TOTAL AS DECIMAL(18,2)) - CAST(SCR.CR_VALLIB AS DECIMAL(18,2))) AS DIFERENCA_VALOR -- Diferença de valores entre o valor da medição e o valor aprovado
+	FROM SCR030 SCR
+	LEFT JOIN SYS_USR USER_PROTHEUS ON USER_PROTHEUS.USR_ID = SCR.CR_USER AND USER_PROTHEUS.D_E_L_E_T_ = ''
+	LEFT JOIN SAK010 USER_APROVADOR ON USER_APROVADOR.AK_COD = SCR.CR_APROV AND USER_APROVADOR.AK_USER = SCR.CR_USER AND USER_APROVADOR.D_E_L_E_T_ = ''
+	LEFT JOIN SAL010 GRUPOS_APROVACAO ON GRUPOS_APROVACAO.AL_COD = SCR.CR_GRUPO AND GRUPOS_APROVACAO.AL_ITEM = SCR.CR_ITGRP AND GRUPOS_APROVACAO.D_E_L_E_T_ = ''
+	LEFT JOIN SYS_COMPANY FILIAS_PROTHEUS ON FILIAS_PROTHEUS.M0_CODIGO = '03' AND FILIAS_PROTHEUS.M0_CODFIL = SCR.CR_FILIAL AND FILIAS_PROTHEUS.D_E_L_E_T_ = ''
+	WHERE SCR.D_E_L_E_T_ = '' AND SCR.CR_TIPO IN ('IM','SC','IP')

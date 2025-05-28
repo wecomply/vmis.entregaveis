@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/27/2025 3:22:03 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SRVMSSQL"
+  DTS:CreatorName="VMISECURITY\mateus.lopes"
+  DTS:DTSID="{24A7044E-6734-4E7F-8757-F63E90AC95AB}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Carga_RAW_Dinamica"
+  DTS:PackageType="5"
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{497AE39A-71C1-4DE6-9F55-717A52692550}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{55C33826-0577-44B1-9189-2665A842F251}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="IdLogExecucao">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{369705FF-604F-472B-9BCE-9F65F581071F}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="objTabelas">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{FB88BCF4-5DD0-448A-9E71-B9A64DBA6131}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="QtdRegistrosDestino">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9F1D269C-9B4F-45E6-8457-C799890D6CAA}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="QtdRegistrosOrigem">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{8C47CED1-A3CD-42ED-B9F4-22C499E8CCA8}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="SqlComandoOrigem">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{312F9431-9773-417C-933E-4F7F0F3EAE85}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="TabelaDestino">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{E2EFA0CA-36EC-4077-A675-9CF8F09AEE5F}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="TabelaOrigem">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Contêiner do Loop Foreach"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Contêiner do Loop Foreach"
+      DTS:DTSID="{6A3E42FA-A373-4DA4-A738-B467A352B240}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Contêiner do Loop Foreach">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachADOEnumerator"
+        DTS:DTSID="{9B7AC917-61AD-40BF-8690-4A08F662AD7A}"
+        DTS:ObjectName="{9B7AC917-61AD-40BF-8690-4A08F662AD7A}">
+        <DTS:ObjectData>
+          <FEEADO
+            EnumType="EnumerateRowsInFirstTable"
+            VarName="User::objTabelas" />
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables />
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{5F381704-C111-4ADF-BD2B-293438C2F313}"
+          DTS:ObjectName="{5F381704-C111-4ADF-BD2B-293438C2F313}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::TabelaOrigem" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{CB84BEC8-D8DF-447C-903F-A56775749CDC}"
+          DTS:ObjectName="{CB84BEC8-D8DF-447C-903F-A56775749CDC}"
+          DTS:ValueIndex="1"
+          DTS:VariableName="User::TabelaDestino" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Criar Log de Início"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Criar Log de Início"
+      DTS:DTSID="{2B12E386-120F-472F-9249-D9A88FBD7A5D}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Criar Log de Início"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{AEA57312-B208-4498-80FD-D589B0DE06F0}"
+          SQLTask:SqlStatementSource="DECLARE @REGISTROS_ORIGEM INT;&#xA;&#xA;SELECT @REGISTROS_ORIGEM = COUNT(*) FROM PROTHEUS12.dbo.[@TabelaDestino]&#xA;&#xA;INSERT INTO GENERAL_LOG_EXECUCOES_SSIS (&#xA;     NOME_PACOTE_SSIS,&#xA;     DATA_HORA_INICIO,&#xA;     STATUS_EXECUCAO,&#xA;     ORIGEM,&#xA;     TABELA_ORIGEM,&#xA;     REGISTROS_ORIGEM&#xA;)&#xA;OUTPUT INSERTED.ID&#xA;VALUES (&#xA;    'Carga_RAW',&#xA;    GETDATE(),&#xA;    'Em Execucao',&#xA;    'PROTHEUS',&#xA;    ?,&#xA;    @REGISTROS_ORIGEM&#xA;);"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="ID"
+            SQLTask:DtsVariableName="User::IdLogExecucao" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="NewParameterName"
+            SQLTask:DtsVariableName="User::TabelaOrigem"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="130"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="NewParameterName"
+            SQLTask:DtsVariableName="User::TabelaOrigem"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="130"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Obter Lista de Tabelas"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Obter Lista de Tabelas"
+      DTS:DTSID="{69035AD3-43BD-46DC-A463-CDFD617F42D5}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Obter Lista de Tabelas"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{73A56B4A-BB8B-44A3-A8A3-7944F4599393}"
+          SQLTask:SqlStatementSource="SELECT TABELA_ORIGEM, TABELA_DESTINO &#xA;FROM LISTA_TABELAS_RAW &#xA;WHERE ATIVO = 1;"
+          SQLTask:ResultType="ResultSetType_Rowset" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::objTabelas" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição]"
+      DTS:CreationName=""
+      DTS:DTSID="{BA9E3894-8193-404A-AEC4-A477C3A8555A}"
+      DTS:From="Package\Obter Lista de Tabelas"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição"
+      DTS:To="Package\Contêiner do Loop Foreach" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{5F2A0863-3C1D-49AD-9EFD-08729AF82B2A}"
+      DTS:From="Package\Contêiner do Loop Foreach"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição 1"
+      DTS:To="Package\Criar Log de Início" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
+<!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
+<!--O pacote ainda poderá ser carregado normalmente, mas as informações de layout anteriores serão perdidas e o designer reorganizará automaticamente os elementos na superfície de design.-->
+<Objects
+  Version="8">
+  <!--Cada nó abaixo conterá propriedades que não afetam o comportamento em tempo de execução.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="244.8,116"
+          Size="244.8,159.2"
+          Id="Package\Contêiner do Loop Foreach"
+          TopLeft="450.000009800379,180.322575184452" />
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Obter Lista de Tabelas"
+          TopLeft="37.3076931202023,230.225799479684" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição]"
+          TopLeft="224.507693120202,251.025799479684">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="225.492316680177,8.89677570476792"
+              Start="0,0"
+              End="217.992316680177,8.89677570476792">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="108.746158340088,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="108.746158340088,0"
+                    Point2="112.746158340088,0"
+                    Point3="112.746158340088,4" />
+                  <mssgle:LineSegment
+                    End="112.746158340088,4.89677570476792" />
+                  <mssgle:CubicBezierSegment
+                    Point1="112.746158340088,4.89677570476792"
+                    Point2="112.746158340088,8.89677570476792"
+                    Point3="116.746158340088,8.89677570476792" />
+                  <mssgle:LineSegment
+                    End="217.992316680177,8.89677570476792" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\Criar Log de Início"
+          TopLeft="817.000015353928,264.361284049114" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição 1]"
+          TopLeft="694.800009800379,259.922575184452">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.200005553549,25.2387088646628"
+              Start="0,0"
+              End="114.700005553549,25.2387088646628">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.1000027767744,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="57.1000027767744,0"
+                    Point2="61.1000027767744,0"
+                    Point3="61.1000027767744,4" />
+                  <mssgle:LineSegment
+                    End="61.1000027767744,21.2387088646628" />
+                  <mssgle:CubicBezierSegment
+                    Point1="61.1000027767744,21.2387088646628"
+                    Point2="61.1000027767744,25.2387088646628"
+                    Point3="65.1000027767744,25.2387088646628" />
+                  <mssgle:LineSegment
+                    End="114.700005553549,25.2387088646628" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

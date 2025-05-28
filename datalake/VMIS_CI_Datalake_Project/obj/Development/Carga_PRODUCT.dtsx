@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/6/2025 10:07:33 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SRVMSSQL"
+  DTS:CreatorName="VMISECURITY\mateus.lopes"
+  DTS:DTSID="{2284C438-4E54-4F5B-8AB7-9559160523F6}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{CC96249E-C69E-4615-999D-BEFB75D2160F}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

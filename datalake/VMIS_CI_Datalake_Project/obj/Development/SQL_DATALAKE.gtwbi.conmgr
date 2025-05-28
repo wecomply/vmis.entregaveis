@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="172.23.22.11.DATALAKE.gtwbi"
+  DTS:DTSID="{73A56B4A-BB8B-44A3-A8A3-7944F4599393}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=172.23.22.11;User ID=integration_datalake;Initial Catalog=DATALAKE;Provider=MSOLEDBSQL.1;Auto Translate=False;Application Name=SSIS-VMIS_CI_Datalake_Project-{73A56B4A-BB8B-44A3-A8A3-7944F4599393}172.23.22.11.DATALAKE.gtwbi;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACs9pVw9ukECWBOlXsF2x6QAAAAACAAAAAAADZgAAwAAAABAAAACWguFLvAJsbKqA1wi4OgYDAAAAAASAAACgAAAAEAAAAPFaB47AfJOy7lf38Ia4d9eIAAAA5I7w8WM6jHDPC3M1AdF1P58SoTK7bXpNMCfeToT0UZcfpLMrpM2XDZTVJr+vto8MSbDH65U5UcXJi9lHRrhLhTKmBSI4TkHPiEvF6gEgoG8ywGhQlg7DfY/Mz0Zsbsdy7edbfl1HzQRRe56csfmpLOS2tKuyy7NRhboD1izkjq9sEW/Y+DH34RQAAAAS7pPnhDD71kqu0P/kFjVltYrYlA==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

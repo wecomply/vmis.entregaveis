@@ -1,0 +1,1831 @@
+Início do processo em 2025-05-28_18-00-00 
+================= INICIANDO CARGA RAW ================= 
+Utilit rio de Execu‡?o de Pacotes do Microsoft (R) SQL Server
+Vers?o 16.0.4175.1 para 32 bits
+Copyright (C) 2022 Microsoft. All rights reserved.
+
+In¡cio: 18:00:00
+Progresso: 2025-05-28 18:00:01.05
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.05
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.20
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.30
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.30
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.31
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.35
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.39
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.39
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.39
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.44
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.48
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.48
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.48
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.54
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.57
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.58
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.58
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.61
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.66
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.66
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.66
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.70
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.74
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.74
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.74
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.86
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.97
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.97
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:01.97
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:02.04
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:02.11
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:02.98
+   Origem: Iniciar Sistema de Log SCR010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:02.98
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:02.99
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.03
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.06
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:03.06
+   C¢digo: 0x80049304
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: Aviso: n?o foi poss¡vel abrir a mem¢ria global compartilhada para comunica‡?o com a DLL de desempenho; os contadores de desempenho de fluxo de dados n?o est?o dispon¡veis. Para resolver, execute este pacote como administrador ou no console do sistema.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:03.09
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.09
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.09
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.09
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.12
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.12
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.15
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:03.18
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.70
+   Origem: Replica‡?o da Tabela SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.89
+   Origem: Finalizar Sistema de Log SCR010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.91
+   Origem: Iniciar Sistema de Log SCR020 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.91
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.91
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:16.97
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.01
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:17.02
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "R_E_C_D_E_L_" (150) na sa¡da "Sa¡da de Origem OLE DB" (115) e componente "Origem - SCR020 - Workflow de Aprova‡?es" (104) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:17.02
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.02
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.02
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.02
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.04
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.04
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.08
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.11
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.14
+   Origem: Replica‡?o da Tabela SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.16
+   Origem: Finalizar Sistema de Log SCR020 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.17
+   Origem: Iniciar Sistema de Log SCR030 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.18
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.18
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.22
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.25
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.25
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.25
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.25
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.25
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.27
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.27
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.30
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.33
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.34
+   Origem: Replica‡?o da Tabela SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.35
+   Origem: Finalizar Sistema de Log SCR030 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.37
+   Origem: Iniciar Sistema de Log SYS_USR 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.37
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.37
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.42
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.46
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.47
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.47
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.47
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.47
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.49
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.54
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.54
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.60
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.64
+   Origem: Replica‡?o da Tabela SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.66
+   Origem: Finalizar Sistema de Log SYS_USR 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.69
+   Origem: Iniciar Sistema de Log SAK010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.69
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.69
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.75
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.78
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.78
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.78
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.78
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.78
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.80
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.83
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.85
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.85
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.86
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.86
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.87
+   Origem: Replica‡?o da Tabela SAK010 - Usu rios Aprovadores vinculados aos usu rios do sistema Protheus 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.88
+   Origem: Finalizar Sistema de Log SAK010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.90
+   Origem: Iniciar Sistema de Log SAL010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.91
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.91
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:17.96
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.01
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.02
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.02
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.02
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.02
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.05
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.10
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.13
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.13
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.15
+   Origem: Replica‡?o da Tabela SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.17
+   Origem: Finalizar Sistema de Log SAL010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.19
+   Origem: Iniciar Sistema de Log SYS_COMPANY 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.19
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.19
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.27
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.32
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.33
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.33
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.33
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.33
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.34
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.34
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.40
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.46
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.47
+   Origem: Replica‡?o da Tabela SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.48
+   Origem: Finalizar Sistema de Log SYS_COMPANY 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.50
+   Origem: Iniciar Sistema de Log CND010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.50
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.50
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.57
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.62
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.63
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.63
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.63
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.63
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.65
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.70
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.75
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.75
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.84
+   Origem: Replica‡?o da Tabela CND010 - Informa‡?es de Medi‡?es do SIstema 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:18.87
+   Origem: Finalizar Sistema de Log CND010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+DTExec: a execu‡?o do pacote retornou DTSER_SUCCESS (0).
+In¡cio: 18:00:00
+Conclus?o: 18:00:18
+Tempo decorrido:  18.485 segundos
+================= FIM CARGA RAW ================= 
+================= INICIANDO CARGA HARMONIZED ================= 
+Utilit rio de Execu‡?o de Pacotes do Microsoft (R) SQL Server
+Vers?o 16.0.4175.1 para 32 bits
+Copyright (C) 2022 Microsoft. All rights reserved.
+
+In¡cio: 18:00:19
+Progresso: 2025-05-28 18:00:19.82
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:19.82
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:19.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.09
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.09
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.09
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.13
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.16
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.16
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.16
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.21
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.25
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.25
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.30
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.35
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.35
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.35
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.39
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.42
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.42
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.42
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.50
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.50
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.50
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.58
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.65
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.65
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.65
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.71
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:20.77
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:21.84
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SCR010 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.26
+   Origem: Iniciar Sistema de Log CI_R_SCR010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.26
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.26
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.30
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.34
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:22.34
+   C¢digo: 0x80049304
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: Aviso: n?o foi poss¡vel abrir a mem¢ria global compartilhada para comunica‡?o com a DLL de desempenho; os contadores de desempenho de fluxo de dados n?o est?o dispon¡veis. Para resolver, execute este pacote como administrador ou no console do sistema.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:22.37
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "INGEST_DATE" (149) na sa¡da "Sa¡da de Origem OLE DB" (114) e componente "Origem - CI_R_SCR010 - Workflow de Aprova‡?es" (103) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:22.37
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IDLOGEXECUCAO" (150) na sa¡da "Sa¡da de Origem OLE DB" (114) e componente "Origem - CI_R_SCR010 - Workflow de Aprova‡?es" (103) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:22.37
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.37
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.37
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.37
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.39
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.59
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.62
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.62
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.91
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.91
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.92
+   Origem: Replica‡?o da Tabela CI_R_SCR010 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:22.96
+   Origem: Finalizar Sistema de Log CI_R_SCR010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.00
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SCR020 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.04
+   Origem: Iniciar Sistema de Log CI_R_SCR020 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.04
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.04
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.11
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.16
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:23.17
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (152) na sa¡da "Sa¡da de Origem OLE DB" (116) e componente "Origem - CI_R_SCR020 - Workflow de Aprova‡?es" (105) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:23.17
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (153) na sa¡da "Sa¡da de Origem OLE DB" (116) e componente "Origem - CI_R_SCR020 - Workflow de Aprova‡?es" (105) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:23.17
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.17
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.17
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.17
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.20
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.20
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.24
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.28
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.29
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.29
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.29
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.30
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.30
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.30
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.30
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.30
+   Origem: Replica‡?o da Tabela CI_R_SCR020 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.32
+   Origem: Finalizar Sistema de Log CI_R_SCR020 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.34
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SCR030 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.36
+   Origem: Iniciar Sistema de Log CI_R_SCR030 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.36
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.36
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.43
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:23.46
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (149) na sa¡da "Sa¡da de Origem OLE DB" (114) e componente "Origem - CI_R_SCR030 - Workflow de Aprova‡?es" (103) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:23.46
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (150) na sa¡da "Sa¡da de Origem OLE DB" (114) e componente "Origem - CI_R_SCR030 - Workflow de Aprova‡?es" (103) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:23.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.46
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.49
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.49
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.52
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.55
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.56
+   Origem: Replica‡?o da Tabela CI_R_SCR030 - Workflow de Aprova‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.57
+   Origem: Finalizar Sistema de Log CI_R_SCR030 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.58
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SYS_USR 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.61
+   Origem: Iniciar Sistema de Log CI_R_SYS_USR 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.61
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.61
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.68
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.75
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:23.76
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (209) na sa¡da "Sa¡da de Origem OLE DB" (154) e componente "Origem - CI_R_SYS_USR - Informa‡?es dos Usu rios do Sistema Protheus" (143) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:23.76
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (210) na sa¡da "Sa¡da de Origem OLE DB" (154) e componente "Origem - CI_R_SYS_USR - Informa‡?es dos Usu rios do Sistema Protheus" (143) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:23.76
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.76
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.76
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.76
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.78
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.82
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.86
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.86
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.89
+   Origem: Replica‡?o da Tabela CI_R_SYS_USR - Usu rio do Sistema Protheus 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.91
+   Origem: Finalizar Sistema de Log SYS_USR 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.92
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SAK010 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.94
+   Origem: Iniciar Sistema de Log CI_R_SAK010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.94
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.94
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.97
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:23.99
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:24.00
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (80) na sa¡da "Sa¡da de Origem OLE DB" (76) e componente "Origem - CI_R_SAK010" (65) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:24.00
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (81) na sa¡da "Sa¡da de Origem OLE DB" (76) e componente "Origem - CI_R_SAK010" (65) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:24.00
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.00
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.00
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.00
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.01
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.03
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.05
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.05
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.05
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.05
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.06
+   Origem: Replica‡?o da Tabela CI_R_SAK010 - Usu rios Aprovadores 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.07
+   Origem: Finalizar Sistema de Log CI_H_SAK010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.08
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SAL010 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.10
+   Origem: Iniciar Sistema de Log CI_R_SAL010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.10
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.10
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.14
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.17
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:24.17
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (110) na sa¡da "Sa¡da de Origem OLE DB" (106) e componente "Origem - CI_R_SAL010" (95) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:24.17
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (111) na sa¡da "Sa¡da de Origem OLE DB" (106) e componente "Origem - CI_R_SAL010" (95) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:24.17
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.17
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.17
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.17
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.19
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.22
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.24
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.24
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.25
+   Origem: Replica‡?o da Tabela CI_R_SAL010 - Grupos de Aprova‡?o 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.27
+   Origem: Finalizar Sistema de Log CI_H_SAL010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.28
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_SYS_COMPANY 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.29
+   Origem: Iniciar Sistema de Log CI_R_SYS_COMPANY 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.30
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.30
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.36
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.41
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:24.42
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (208) na sa¡da "Sa¡da de Origem OLE DB" (204) e componente "Origem - CI_R_SYS_COMPANY" (193) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:24.42
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (209) na sa¡da "Sa¡da de Origem OLE DB" (204) e componente "Origem - CI_R_SYS_COMPANY" (193) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:24.42
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.42
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.42
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.42
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.43
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.50
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.56
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.56
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.57
+   Origem: Replica‡?o da Tabela CI_R_SYS_COMPANY - Informa‡?es b sicas das empresas no Protheus 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.58
+   Origem: Finalizar Sistema de Log CI_H_SYS_COMPANY 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.62
+   Origem: Busca o £ltimo ID_LOG_EXECUCAO da tabela CI_R_CND010 
+   Executando a consulta "SELECT ISNULL(MAX(IDLOGEXECUCAO), 0) AS MAX_ID_LOG...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.65
+   Origem: Iniciar Sistema de Log CI_R_CND010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT;
+DECLARE @REGISTROS_O...".: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.65
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.65
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.72
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.78
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Valida‡?o: 100% conclu¡do
+Fim de Progresso
+Aviso: 2025-05-28 18:00:24.78
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "Ingest_Date" (178) na sa¡da "Sa¡da de Origem OLE DB" (174) e componente "Origem - CI_R_CND010" (163) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Aviso: 2025-05-28 18:00:24.78
+   C¢digo: 0x80047076
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es SSIS.Pipeline
+   Descri‡?o: A coluna de sa¡da "IdLogExecucao" (179) na sa¡da "Sa¡da de Origem OLE DB" (174) e componente "Origem - CI_R_CND010" (163) n?o ‚ usada subsequentemente na tarefa Fluxo de Dados. A remo‡?o dessa coluna de sa¡da n?o utilizada pode melhorar o desempenho da tarefa Fluxo de Dados.
+Aviso de Fim
+Progresso: 2025-05-28 18:00:24.78
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Prepara‡?o para Execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.78
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Prepara‡?o para Execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.78
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Prepara‡?o para Execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.78
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Prepara‡?o para Execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.80
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Pr‚-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.80
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Pr‚-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.87
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Pr‚-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.92
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Pr‚-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   P¢s-execu‡?o: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   P¢s-execu‡?o: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   P¢s-execu‡?o: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   P¢s-execu‡?o: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Limpeza: 0% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Limpeza: 33% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Limpeza: 66% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:24.99
+   Origem: Replica‡?o da Tabela CI_R_CND010 - Informa‡?es das Medi‡?es 
+   Limpeza: 100% conclu¡do
+Fim de Progresso
+Progresso: 2025-05-28 18:00:25.01
+   Origem: Finalizar Sistema de Log CI_H_CND010 
+   Executando a consulta "DECLARE @ID_LOG_EXECUCAO INT = ?; -- Mapeia com a ...".: 100% conclu¡do
+Fim de Progresso
+DTExec: a execu‡?o do pacote retornou DTSER_SUCCESS (0).
+In¡cio: 18:00:19
+Conclus?o: 18:00:25
+Tempo decorrido:  5.844 segundos
+================= FIM CARGA HARMONIZED ================= 
+Processo concluído com sucesso em 2025-05-28_18-00-00 
